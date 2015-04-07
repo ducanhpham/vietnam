@@ -115,8 +115,8 @@
 
 					  <!-- Nav tabs -->
 					  <ul class="nav nav-tabs" role="tablist">
-					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><h3>HOT JOBS OF THE WEEK</h3></a></li>
-					    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><h3>THIS WEEK'S MARKETING STORY</h3></a></li>
+					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">HOT JOBS OF THE WEEK</a></li>
+					    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">THIS WEEK'S MARKETING STORY</a></li>
 					  </ul>
 
 				  
@@ -161,20 +161,19 @@
 
 
 							<div role="tabpanel" id="home" class="tab-pane active container wa_content_tab">
-									@foreach($new_job->data->jobs as $job)
+
 									<div class="row">
 											<div class="col-md-8">
 												<div class="col-md-3">
-													<img src="{{$job->job_logo_url}}" height="41" width="133">
+													<img src="{{url('public/frontend/img/company.png')}}" height="41" width="133">
 												</div>
 												<div class="col-md-9 wa_info">
-													<h4>{{ $job->job_title }}</h4>
-													<p>{{ $job->job_company }}</p>
-													<!-- <img src="{{url('public/frontend/img/urgent.png')}}" height="92" width="93"> -->
+													<h4>Nhân Viên Kinh Doanh Dịch Vụ Viễn Thông Tại Hà Nội</h4>
+													<p>Vietnamworks</p>
+													<img src="{{url('public/frontend/img/urgent.png')}}" height="92" width="93">
 												</div>
 											</div>
 											<div class="col-md-2 wa_location">
-												
 												<h4>Hồ Chí Minh city</h4>
 											</div>
 											<div class="col-md-2 wa_apply">
@@ -185,12 +184,11 @@
 											</div>
 
 									</div>
-									@endforeach
 
 
-									<!-- <div style="text-align:center; padding:10px;">
+									<div style="text-align:center; padding:10px;">
 											<a style="color:#4e4ebc" href="#">Xem thêm</a>
-									</div> -->
+									</div>
 
 									
 									

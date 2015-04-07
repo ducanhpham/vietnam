@@ -28,14 +28,8 @@ class SearchesController extends \BaseController {
 			$job_levels = $ganeral_configurations->job_levels;
 			$degree = $ganeral_configurations->degree;
 
-			$options = [
-					
-					"job_category"=>27,
-					"page_number"=>0
-			];
-			$new_job = $this->getResultSearch($options);
 
-			return View::make('searches.index',compact('ganeral_configurations','new_job','locations'));
+			return View::make('searches.index',compact('ganeral_configurations'));
 	}
 
 

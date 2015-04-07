@@ -66,7 +66,7 @@
 					<div class="da_slider">
 						@foreach($expert as $key_ex => $val_ex)
 						<div class="col-md-3 da_avatar_author ">
-							<img src="{{$val_ex->avatar}}" class="img-circle">
+							<img src="{{$val_ex->avatar}}" class="img-circle center-block">
 							<h3 class="center-block">{{$val_ex->name}}</h3>
 							<h4>{{$val_ex->position}}</h4>
 						</div>
@@ -142,6 +142,7 @@
 				footer
 			</div>
 		</footer>
+
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<?php

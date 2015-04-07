@@ -8,7 +8,7 @@ $(document).ready(function(){
 		vertical:"top"
 	});
 
-	$('.da_slider').slick({
+	$('.slider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 4,
 	});

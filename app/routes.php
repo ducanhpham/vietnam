@@ -65,9 +65,11 @@ Route::get('wa-test',function()
 Route::controller('users', 'UsersController');
 Route::controller('/','SearchesController');
 
+//test
+/*
 Route::controller('wa_test',function(){
 	echo "Test";
-});
+});*/
 
 
 
